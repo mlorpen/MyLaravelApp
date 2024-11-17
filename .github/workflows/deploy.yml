@@ -14,4 +14,4 @@ jobs:
           port: 2222
           username: marcoslp
           key: ${{secrets.LARAVELAPP_KEY}}
-          script: "cd /var/www/html/MyLaravelApp; git pull; npm run build"
+          script: "cd /var/www/html/MyLaravelApp; ls -al"
