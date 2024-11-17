@@ -18,9 +18,14 @@ class Kernel extends ConsoleKernel
     /**
      * Register the commands for the application.
      */
+
+    protected $commands = [
+        Commands\DispatchTestJobCommand::class,
+    ];
+
     protected function commands(): void
     {
-        $this->load(__DIR__.'/Commands');
+        $this->load(__DIR__ . '/Commands');
 
         require base_path('routes/console.php');
     }
