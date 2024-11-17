@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Deploy
-        uses: mlorpen/ssh-action@main
+        uses: appleboy/ssh-action@1.0.8
         with:
           host: mlorpen.informaticamajada.es
           port: 2222
