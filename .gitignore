@@ -17,5 +17,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/storage/keys/
+/storage/key
+/storage/key.pub
 mylaravelapp-b2f3b-firebase-adminsdk-ga6z0-eeb894311e.json
